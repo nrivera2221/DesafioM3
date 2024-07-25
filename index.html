@@ -4,92 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aplicando SMACSS</title>
+    <title>Usando SASS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
   </head>
   <body>
-    <div class="container">
+    
       <header>
-        <img src="./assets/img/logo/adl.png" alt="">
-        <h2 class="header-title">Blog FrontEnd</h2>
+        <img  src="./assets/img/logo/adl.png" alt="">
+        <h2>Blog FrontEnd</h2>
       </header>
-      <main class="main">
-        <h3 class="subtitle">Posts</h3>
-        <div class="card">
-          <img src="./assets/img/logo/html.png" alt="">
-          <h4>Semántica HTML</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laboriosam vitae iste nemo voluptate facilis repellat deserunt voluptatibus repellendus.</p>
-          <div class="tags">
-            <span>#Html</span>
-            <span>#FrontEnd</span>
+      <main>
+        <form>
+          <h3>Bienvenidos</h3>
+          <input class="form-input" type="text" placeholder="Email">
+          <input class="form-input" type="password" placeholder="Contraseña">
+          <div id="sub-buttons">
+            <input class="checkbox" type="checkbox">
+            <p>Recordarme</p>
+            <a href="#">¿Olvidaste tu contraseña?</a>
           </div>
-        </div>
-        <div class="card">
-          <img src="./assets/img/logo/css.png" alt="">
-          <h4>Flexbox</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laboriosam vitae iste nemo voluptate facilis repellat deserunt voluptatibus repellendus.</p>
-          <div class="tags">
-            <span>#CSS</span>
-            <span>#FrontEnd</span>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./assets/img/logo/js.png" alt="">
-          <h4>Herencia</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laboriosam vitae iste nemo voluptate facilis repellat deserunt voluptatibus repellendus.</p>
-          <div class="tags">
-            <span>#JavaScript</span>
-            <span>#FrontEnd</span>
-          </div>
-        </div>
-        <div class="card">
-          <img src="./assets/img/logo/html.png" alt="">
-          <h4>Formularios HTML</h4>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laboriosam vitae iste nemo voluptate facilis repellat deserunt voluptatibus repellendus.</p>
-          <div class="tags">
-            <span>#Html</span>
-            <span>#FrontEnd</span>
-          </div>
-        </div>
+          <a href="index.html"><input type="submit"  value="Iniciar Sesion"></a>
+          <a href="https://accounts.google.com/v3/signin/identifier?continue=http%3A%2F%2Fsupport.google.com%2Faccounts%2Fanswer%2F76194%3Fhl%3Des-419&ec=GAZAdQ&hl=es-419&ifkv=AdF4I74it0a-9fY0EmvvhIG6ynzyNQIf4liCd_y6aIbsYkasVcAc1HmOjKTSxzgD6CRKhlPLzH6lHg&passive=true&sjid=605752921552128309-SA&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1174482518%3A1721934577385853&ddm=0"><button class="btn-google">Iniciar Sesión con Google</button></a>
+        </form>
       </main>
-      <!-- Widget categorías -->
-      <div class="widget-container">
-        <h3 class="subtitle">Categorías</h3>
-        <div class="box html">
-          <img src="./assets/img/logo/html.png" class="box-img" alt="" />
-          <h3 class="box-title">HTML</h3>
-        </div>
-        <div class="box css">
-          <img src="./assets/img/logo/css.png" class="box-img" alt="" />
-          <h3 class="box-title">CSS</h3>
-        </div>
-        <div class="box js">
-          <img src="./assets/img/logo/js.png" class="box-img" alt="" />
-          <h3 class="box-title">JavaScript</h3>
-        </div>
-      </div>
       <footer>
-        <img src="./assets/img/logo/adl.png" alt="">
-        <h4 class="subtitle">Blog FrontEnd</h4>
-        <p>Todos los derechos reservados - 2022</p>
+        <p>¿Ya tienes una cuenta?</p>
+        <a href="">Registrate</a>
       </footer>
-    </div>
-    <form>
-      <div class="form-group col">
-        
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-      </div>
-    <div class="col">
-      <form action="registro.html" ></a><button type="submit" class="btn btn-primary">Submit</button></form>
-    </div>
-    </form>
   </body>
 </html>
