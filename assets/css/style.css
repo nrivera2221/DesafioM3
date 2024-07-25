@@ -208,13 +208,15 @@ footer p {
   float: right;
   margin-top: 15px;
 }
-.volver__p{
 
-}
 .volver{
-
+  margin: 16px;
+  text-align: center;
+  display: block;
+  justify-content: center;
 }
 .volver__a{
+  margin: 16px;
   
 }
 /*# sourceMappingURL=style.css.map */
