@@ -1,0 +1,17 @@
+header {
+    height:120px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000000;
+
+    img{
+        height: 100%;
+        display: inline-block;
+    }
+
+    h2{
+        display: inline-block;
+        margin-left: 10px;
+    }
+}
